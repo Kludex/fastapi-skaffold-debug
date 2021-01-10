@@ -33,7 +33,7 @@ Let's go inside the pod.
 
 ```bash
 export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
-kubectl exec --stdin --tty app-758d55b85c-k5zbg -- /bin/bash
+kubectl exec --stdin --tty $POD_NAME -- /bin/bash
 ```
 
 Make a request.

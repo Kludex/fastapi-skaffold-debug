@@ -10,6 +10,7 @@ We'll make use of the following tools:
 * [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 * [Skaffold](https://skaffold.dev/docs/install/)
 * [Docker](https://docs.docker.com/get-docker/)
+* [VSCode](https://code.visualstudio.com/download)
 
 So please, if you don't have them installed, feel free to do so.
 
@@ -27,7 +28,7 @@ Run `skaffold`, you can use either the `dev` or `debug` command.
 skaffold dev # or debug
 ```
 
-Now you can press **F5** and the debugger will be attached to your pod.
+Now you can press **F5** on your VSCode and the debugger will be attached to your pod.
 
 Let's go inside the pod.
 
